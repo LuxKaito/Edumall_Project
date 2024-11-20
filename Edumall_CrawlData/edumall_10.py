@@ -187,18 +187,18 @@ def extract_course_data(driver, links):
 #     df.to_excel(filename, index=False)
 #     print(f"Dữ liệu đã được lưu vào file '{filename}'")
 
-def clean_string(value):
-    if isinstance(value, str):
-        return ''.join(c for c in value if c.isprintable())
-    return value
+# def clean_string(value):
+#     if isinstance(value, str):
+#         return ''.join(c for c in value if c.isprintable())
+#     return value
 
-def save_to_excel(data, filename='edumall_data.xlsx'):
-    """Lưu dữ liệu vào file Excel"""
-    df = pd.DataFrame(data)
-    # Làm sạch dữ liệu bằng map() cho từng cột
-    df = df.apply(lambda col: col.map(clean_string))
-    df.to_excel(filename, index=False)
-    print(f"Dữ liệu đã được lưu vào file '{filename}'")
+# def save_to_excel(data, filename='edumall_data.xlsx'):
+#     """Lưu dữ liệu vào file Excel"""
+#     df = pd.DataFrame(data)
+#     # Làm sạch dữ liệu bằng map() cho từng cột
+#     df = df.apply(lambda col: col.map(clean_string))
+#     df.to_excel(filename, index=False)
+#     print(f"Dữ liệu đã được lưu vào file '{filename}'")
     
 # Hàm Đọc dữ liệu vào file csv  
 def save_to_csv(data, filename='edumall_data1.csv'):

@@ -24,8 +24,15 @@ docker run -e Mongo_HOST=mymongodb --network my network –name edumall_containe
 Triển khai trên docker test (đọc dữ liệu mongodb , xử lý bằng pyspark rồi đổ dữ liệu vào postgres)
 docker pull postgres (lần đầu)
 docker run --name mypostgres --network mynetwork -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=12345 -e POSTGRES_DB=edumall_db -p 5432:5432 -d postgres
-docker exec -it mypostgres psql -U postgres -d edumall_db -c "CREATE TABLE Author (author_id SERIAL PRIMARY KEY, author_name VARCHAR(255) UNIQUE);”
-docker exec -it mypostgres psql -U postgres -d edumall_db -c "CREATE TABLE Topic (topic_id SERIAL PRIMARY KEY, topic_name VARCHAR(255) UNIQUE);”
-docker exec -it mypostgres psql -U postgres -d edumall_db -c " CREATE TABLE Course( course_id SERIAL PRIMARY KEY, coursename VARCHAR(255) NOT NULL, describe TEXT, newfee INTEGER, oldfee INTEGER, rating DECIMAL, time INTEGER, last_day_updated INTEGER, last_month_updated INTEGER, last_year_updated INTEGER, sections INTEGER, lectures INTEGER, what_you_will_learn TEXT, author_id INTEGER REFERENCES Author(author_id), topic_id INTEGER REFERENCES Topic(topic_id) ); "
-docker run -e Mongo_HOST=mymongodb --network mynetwork --name postgres_container -v C:\Users\admin\Desktop\Edumall_Postgres:/Edumall_Postgres postgres_image
+docker exec -it mypostgres psql -U postgres -d edumall_db -c "CREATE TABLE Author (author_id SERIAL PRIMARY KEY, author_name VARCHAR(255) UNIQUE NOT NULL);"
+docker exec -it mypostgres psql -U postgres -d edumall_db -c "CREATE TABLE Topic (topic_id SERIAL PRIMARY KEY, topic_name VARCHAR(255) UNIQUE NOT NULL);"
+docker exec -it mypostgres psql -U postgres -d edumall_db -c "CREATE TABLE Course(course_id SERIAL PRIMARY KEY, coursename VARCHAR(255) NOT NULL, describe TEXT, newfee INTEGER, oldfee INTEGER, rating DECIMAL, time INTEGER, full_date DATE, day INTEGER, month INTEGER, year INTEGER, sections INTEGER, lectures INTEGER, what_you_will_learn TEXT, author_id INTEGER REFERENCES Author(author_id), topic_id INTEGER REFERENCES Topic(topic_id) );"
+docker run -e Mongo_HOST=mymongodb --network mynetwork --name postgres_container -v C:\Users\admin\Desktop\Edumall_Github\Edumall_Postgres:/Edumall_Postgres postgres_image
 docker exec -it mypostgres psql -U postgres -d edumall_db
+select * from course c join topic t on c.topic_id = t.topic_id where t.topic_id = '10';
+
+Import mongodb
+docker container run -e Mongo_HOST=mymongodb --network mynetwork --name edumall_container import_edumall
+docker start mymongodb
+docker exec -it mymongodb mongosh
+

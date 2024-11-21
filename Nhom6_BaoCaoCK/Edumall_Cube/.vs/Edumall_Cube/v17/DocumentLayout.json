@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Downloads\\Edumall_Cube\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22B67708-8F17-41CE-B46F-49E2B4D25091}|Edumall_Cube\\Edumall_Cube.dwproj|C:\\Users\\admin\\Downloads\\Edumall_Cube\\Edumall_Cube\\Dim Topic.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{22B67708-8F17-41CE-B46F-49E2B4D25091}|Edumall_Cube\\Edumall_Cube.dwproj|solutionrelative:Edumall_Cube\\Dim Topic.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B67708-8F17-41CE-B46F-49E2B4D25091}|Edumall_Cube\\Edumall_Cube.dwproj|C:\\Users\\admin\\Downloads\\Edumall_Cube\\Edumall_Cube\\Dim Last Updated.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{22B67708-8F17-41CE-B46F-49E2B4D25091}|Edumall_Cube\\Edumall_Cube.dwproj|solutionrelative:Edumall_Cube\\Dim Last Updated.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B67708-8F17-41CE-B46F-49E2B4D25091}|Edumall_Cube\\Edumall_Cube.dwproj|C:\\Users\\admin\\Downloads\\Edumall_Cube\\Edumall_Cube\\Dim Author.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{22B67708-8F17-41CE-B46F-49E2B4D25091}|Edumall_Cube\\Edumall_Cube.dwproj|solutionrelative:Edumall_Cube\\Dim Author.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B67708-8F17-41CE-B46F-49E2B4D25091}|Edumall_Cube\\Edumall_Cube.dwproj|C:\\Users\\admin\\Downloads\\Edumall_Cube\\Edumall_Cube\\Dim Course Overview.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{22B67708-8F17-41CE-B46F-49E2B4D25091}|Edumall_Cube\\Edumall_Cube.dwproj|solutionrelative:Edumall_Cube\\Dim Course Overview.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22B67708-8F17-41CE-B46F-49E2B4D25091}|Edumall_Cube\\Edumall_Cube.dwproj|C:\\Users\\admin\\Downloads\\Edumall_Cube\\Edumall_Cube\\DWH Edumall.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{22B67708-8F17-41CE-B46F-49E2B4D25091}|Edumall_Cube\\Edumall_Cube.dwproj|solutionrelative:Edumall_Cube\\DWH Edumall.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dim Topic.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Edumall_Cube\\Edumall_Cube\\Dim Topic.dim",
+              "RelativeDocumentMoniker": "Edumall_Cube\\Dim Topic.dim",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Edumall_Cube\\Edumall_Cube\\Dim Topic.dim [Design]",
+              "RelativeToolTip": "Edumall_Cube\\Dim Topic.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-20T23:24:43.858Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dim Last Updated.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Edumall_Cube\\Edumall_Cube\\Dim Last Updated.dim",
+              "RelativeDocumentMoniker": "Edumall_Cube\\Dim Last Updated.dim",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Edumall_Cube\\Edumall_Cube\\Dim Last Updated.dim [Design]",
+              "RelativeToolTip": "Edumall_Cube\\Dim Last Updated.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-20T23:24:11.572Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dim Author.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Edumall_Cube\\Edumall_Cube\\Dim Author.dim",
+              "RelativeDocumentMoniker": "Edumall_Cube\\Dim Author.dim",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Edumall_Cube\\Edumall_Cube\\Dim Author.dim [Design]",
+              "RelativeToolTip": "Edumall_Cube\\Dim Author.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-20T23:23:53.079Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Course Overview.dim [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Edumall_Cube\\Edumall_Cube\\Dim Course Overview.dim",
+              "RelativeDocumentMoniker": "Edumall_Cube\\Dim Course Overview.dim",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Edumall_Cube\\Edumall_Cube\\Dim Course Overview.dim [Design]",
+              "RelativeToolTip": "Edumall_Cube\\Dim Course Overview.dim [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-20T23:21:47.272Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DWH Edumall.cube [Design]",
+              "DocumentMoniker": "C:\\Users\\admin\\Downloads\\Edumall_Cube\\Edumall_Cube\\DWH Edumall.cube",
+              "RelativeDocumentMoniker": "Edumall_Cube\\DWH Edumall.cube",
+              "ToolTip": "C:\\Users\\admin\\Downloads\\Edumall_Cube\\Edumall_Cube\\DWH Edumall.cube [Design]",
+              "RelativeToolTip": "Edumall_Cube\\DWH Edumall.cube [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-20T23:21:40.467Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
